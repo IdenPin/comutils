@@ -13,7 +13,8 @@ const typeObj = {
   '[object Date]': 'date',
   '[object RegExp]': 'regexp',
   '[object Object]': 'object',
-  '[object Error]': 'error'
+  '[object Error]': 'error',
+  '[object Set]' : 'set'
 }
 
 const typeOf = (obj) => {
